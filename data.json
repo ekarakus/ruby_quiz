@@ -1,6 +1,1 @@
-[
-  {"question":"Whats is the CSS",    "options":["Cascade style sheet","come soon son ","c","d"],"answer":0},
-  {"question":"Soru 1","options":["a","b","c","d"],"answer":0},
-  {"question":"soru","options":["1","2","3","4"],"answer":1},
-  {"question":"new ques","options":["new","old","update","delete"],"answer":4}
- ]
+[{"question":"new q","options":["1","2","3","4"],"answer":"4"},{"question":"4444","options":["rr","r","r","r"],"answer":"3"},{"question":"alo","options":["1","2","3","4"],"answer":"3"},{"question":"llll","options":["g","h","j","m"],"answer":"2"}]
