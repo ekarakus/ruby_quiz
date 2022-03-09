@@ -1,1 +1,5 @@
-[{"question":"new q","options":["1","2","3","4"],"answer":"4"},{"question":"4444","options":["rr","r","r","r"],"answer":"3"},{"question":"alo","options":["1","2","3","4"],"answer":"3"},{"question":"llll","options":["g","h","j","m"],"answer":"2"}]
+[{"question":"Which of the following is supported by Ruby?","options":["Multiple Programming Paradigms","Dynamic Type System","Automatic Memory Management","All of the Mentioned"],"answer":"4"},{"question":"Variables that start a dollar sign are what kind of variables in Ruby","options":["Local variable","Global variable","Instance variable","Class variable"],"answer":"2"},{"question":"Ruby is what kind of programming language?",
+"options":["Strongly typed/Dynamically typed",
+"Strongly typed/Dynamically typed",
+"Weakly typed/Dynamically typed",
+"None of the above"],"answer":"2"}]

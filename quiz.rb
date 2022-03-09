@@ -14,15 +14,15 @@ def apply_quiz
     puts
     a=0
     loop do
-      print "your answer is (1-4)"
+      print "your answer is (1..4):"
       a=gets.chomp
       #checking whether is less than 5 and is numeric
       break if a.to_i<=4 && a==a.to_i.to_s
     end
-    point+=1 if a.to_i==q.answer
+    point+=1 if a==q.answer
   end
   puts "-"*80
-  puts "your score is #{point}"
+  puts "your score is #{point} of #{questions.length}"
 end
 
 def add_question_to_quiz
@@ -52,7 +52,7 @@ def add_question_to_quiz
     #answer
     correct_answer=0
     loop do
-      print "Please enter the correct answer number (1-4):"
+      print "Please enter the correct answer number (1..4):"
       correct_answer=gets.chomp
       #checking whether is less than 5 and is numeric
       break if correct_answer.to_i<=4 && correct_answer==correct_answer.to_i.to_s
@@ -62,9 +62,9 @@ def add_question_to_quiz
     question=Question.new
     question.assign_params(q,options,correct_answer)
     questions.push(question)
-    
+
     puts "\nDo you want to continue to add more? (y/n)"
-    break if gets.chomp.strip!="y"
+    break if gets.chomp.strip.downcase!="y"
   end
 
   write_to_file(questions)
